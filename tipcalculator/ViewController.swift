@@ -14,6 +14,8 @@ class ViewController: UIViewController {
     @IBOutlet weak var tipLabel: UILabel!
     @IBOutlet weak var totalLabel: UILabel!
     @IBOutlet weak var tipControl: UISegmentedControl!
+    @IBOutlet weak var peopleField: UITextField!
+    @IBOutlet weak var perPersonLabel: UILabel!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -33,6 +35,12 @@ class ViewController: UIViewController {
         
         tipLabel.text = String(format: "$%.2f", tipAmount)
         totalLabel.text = String(format: "$%.2f", totalAmount)
+        
+        var numberPeople = NSString(string: peopleField.text!).doubleValue
+        if(numberPeople < 1) { numberPeople=1 }
+        let perPersonAmount = totalAmount / numberPeople
+        
+        perPersonLabel.text = String(format: "$%.2f", perPersonAmount)
     }
 
     @IBAction func onTapCalcView(sender: AnyObject) {
