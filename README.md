@@ -1,15 +1,17 @@
 # Pre-work - Tip Calculator
 
+<img src="http://files.harrischristiansen.com/0R1T2B0L0s0P/tip_icon.png" style="width:60px;height:60px;">
+
 Tip Calculator is a tip calculator application for iOS.
 
-Submitted by: Harris Christiansen
+Submitted by: Harris Christiansen (christih@purdue.edu)
 
 Time spent: 1 hour spent in total
 
 ## User Stories
 
 The following **required** functionality is complete:
-* [ ] User can enter a bill amount, choose a tip percentage, and see the tip and total values.
+* [x] User can enter a bill amount, choose a tip percentage, and see the tip and total values.
 
 The following **optional** features are implemented:
 * [ ] Settings page to change the default tip percentage.
@@ -20,20 +22,14 @@ The following **optional** features are implemented:
 
 The following **additional** features are implemented:
 
-* [ ] User can divide bill among a specified # of people.
-* [ ] App is designed using Auto Layout Constraints so it can be used across all devices.
+* [x] User can divide bill among a specified # of people.
+* [x] App is designed using Auto Layout Constraints so it can be used across all devices.
 
 ## Video Walkthrough 
 
 Here's a walkthrough of implemented user stories:
 
-<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
-
-GIF created with [LiceCap](http://www.cockos.com/licecap/).
-
-## Notes
-
-Describe any challenges encountered while building the app.
+<img src='http://f.cl.ly/items/3A1B362F3a3R0E0f0U27/Screen%20Recording%202015-12-31%20at%2002.14%20PM.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 ## License
 
